@@ -88,23 +88,20 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	height: 500px;
 	margin: auto;
-	display: inline-block;
-	box-sizing: border-box;
+	display: flex;
+
 	
 }
 
 .titlebox{
-	display:inline-block;
 	width: 300px;
 	height: 400px;
 	margin:50px;
 	margin-bottom: 50px;
-	vertical-align:top;
-/* hello */
 }
 
 .header_img{
-	display:inline-block;
+	
 	margin: 50px 50px;
 }
 
@@ -124,7 +121,8 @@ h2{
 }
 
 .top_content{
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
 	width: 900px;
 	box-sizing: border-box;
 	border-top: 1px solid black;
@@ -133,21 +131,20 @@ h2{
 }
 
 .featuresbox{
-	display: inline-block;
 	width: 400px;
 	margin: auto;
 	padding: 20px;
 }
 
 .aboutbox{
-	display: inline-block;
 	width: 400px;
 	margin: auto;
 	padding: 20px;
 }
 
 .bottom_content{
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
 	width: 900px;
 	box-sizing: border-box;
 	border-bottom: 1px solid black;
@@ -155,21 +152,21 @@ h2{
 }
 
 .productbox{
-	display: inline-block;
+	
 	width: 290px;
 	margin: auto;
 	padding: 20px;
 }
 
 .visionbox{
-	display: inline-block;
+	
 	width: 290px;
 	margin: auto;
 	padding: 20px;
 }
 
 .servicebox{
-	display: inline-block;
+	
 	width:290px;
 	margin: auto;
 	padding: 20px;
@@ -188,8 +185,8 @@ address p {
 	margin-top: 50px;
 }
 footer a {
-	display:inline-block;
+	display:flex;
+	justify-content: center;
 	width: 900px;
-	text-align: center;
 	margin-bottom: 200px;
 }
