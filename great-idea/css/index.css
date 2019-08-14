@@ -173,7 +173,7 @@ h2{
 	padding: 20px;
 }
 
-}
+
 address{
 	margin-left: 15px;
 	padding:5px;
@@ -197,5 +197,124 @@ footer a {
 .servcontainer{
 	width: 900px;
 	margin: auto;
+	/* border: 1px solid black; */
+}
+
+.services-header-img{
+	width: 900px;
+	margin: 25px 0px;
+	
+}
+
+.servecontainer p{
+	margin:5px;
+	font-size:18px
+}
+.servcontainer h3{
+	margin-left: 5px;
+	
+}
+.serviceintro{
+	border-bottom: 1px solid black;
+	width: 900px;
+}
+.serviceintro h1{
+	font-size: 35px;
+	text-align: left;
+	padding: 0px;
+}
+.serviceintro p{
+	margin-bottom: 50px;
+}
+
+.servcontainer section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+.digitaldesign{
+	width: 400px;
+	height: 250px;
 	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+.ux_ui{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+
+
+.digitalmarketing{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+
+
+.webdev{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+
+
+.iosdev{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+
+
+.androiddev{
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	background: whitesmoke ;
+	margin: 25px 0px;
+}
+
+.servcontainer section a:link{
+	text-decoration: none;
+	display:flex;
+	width: 150px;
+	margin: 50px 0px;
+	padding: 5px;
+	border:1px solid black;
+	border-radius: 5px;
+	background: white;
+	color:black;
+	
+	
+}
+.servcontainer section a:hover{
+	text-decoration: none;
+	display:flex;
+	width: 150px;
+	margin: 50px 0px;
+	padding: 5px;
+	border:1px solid black;
+	border-radius: 5px;
+	background: silver;
+}
+
+
+.about{
+	display:flex;
 }
