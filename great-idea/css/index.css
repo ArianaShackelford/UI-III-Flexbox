@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 900px;
 	margin: auto;
+
 } 
 
  nav {
@@ -189,4 +190,12 @@ footer a {
 	justify-content: center;
 	width: 900px;
 	margin-bottom: 200px;
+}
+
+
+/* Service page starts here */
+.servcontainer{
+	width: 900px;
+	margin: auto;
+	border: 1px solid black;
 }
