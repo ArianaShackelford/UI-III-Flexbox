@@ -73,12 +73,15 @@ h1, h2, h3, h4, h5 {
  nav {
 	display: inline-block;
 	margin-top: 30px;
-	margin-left: 20px;
 	color: lightgray;
+	
+	
 }
 
  nav a {
 	margin: 0 20px;
+	text-decoration:none;
+	color:grey;
 	
 }
  .logo{
@@ -206,16 +209,16 @@ footer a {
 	
 }
 
-.servecontainer p{
+.servcontainer p{
 	margin:5px;
-	font-size:18px
+	font-size: 18px;
 }
 .servcontainer h3{
 	margin-left: 5px;
 	
 }
 .serviceintro{
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	width: 900px;
 }
 .serviceintro h1{
@@ -231,6 +234,7 @@ footer a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	border-bottom: 2px solid black;
 
 }
 .digitaldesign{
@@ -290,16 +294,17 @@ footer a {
 	margin: 25px 0px;
 }
 
-.servcontainer section a:link{
+.servcontainer section a{
 	text-decoration: none;
 	display:flex;
 	width: 150px;
-	margin: 50px 0px;
+	margin: 20px 0px;
 	padding: 5px;
 	border:1px solid black;
 	border-radius: 5px;
 	background: white;
 	color:black;
+	padding-left: 35px;
 	
 	
 }
@@ -312,9 +317,33 @@ footer a {
 	border:1px solid black;
 	border-radius: 5px;
 	background: silver;
+	padding-left: 35px;
 }
 
 
 .about{
 	display:flex;
+	flex-direction: row;
+	margin: 35px 0px;
+}
+
+.servfacts{
+	width: 400px ;
+	margin-right: 77px;
+}
+
+ul{
+	margin: 30px 0px;
+	list-style: square inside;
+}
+
+ul li{
+	margin:5px;
+}
+
+.footer{
+	margin: 70px;
+	width:900px;
+	height: 20px;
+	text-align: center;
 }
